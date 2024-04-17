@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-text-color: #121214;
+  --details-text-color: #846aff;
+  --button-text-color: #ffffff;
+  --input-text-color: #7c7c8a;
+
+  --bg-color: #f8f8ff;
+
+  --card-border-color: #eeeeff;
+  --input-border-color: #eaeaea;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
