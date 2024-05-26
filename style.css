@@ -50,7 +50,7 @@ header .introduction {
   display: flex;
   flex-direction: column;
 
-  width: 50%;
+  width: 48%;
 
   gap: 20px;
 }
@@ -101,7 +101,7 @@ main #content {
   flex-direction: column;
   gap: 20px;
 
-  width: 65%;
+  width: 63%;
 }
 
 main h3 {
@@ -130,7 +130,7 @@ main #posts {
 
 #posts .post h4 {
   font-weight: 600;
-  font-size: 17px;
+  font-size: 16.8px;
   margin: 10px 0 0 10px;
 }
 
@@ -138,4 +138,60 @@ main #posts {
   font-weight: 400;
   font-size: 15px;
   margin-left: 10px;
+}
+
+/* adding contact info */
+
+footer {
+  width: 100vw;
+
+  margin-top: 40px;
+  padding: 20px 0 25px 0;
+
+  background-color: var(--bg-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+footer h3 {
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  width: 580px;
+}
+
+footer div input,
+footer div textarea {
+  padding: 12px 0px 12px 15px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 4px;
+
+  font-family: "Roboto", sans-serif;
+}
+
+footer div textarea {
+  height: 180px;
+  margin-bottom: 10px;
+}
+
+footer div button {
+  background-color: var(--details-text-color);
+  color: var(--button-text-color);
+
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+}
+
+footer div button:hover {
+  cursor: pointer;
 }
